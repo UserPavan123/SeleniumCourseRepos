@@ -17,6 +17,7 @@ public class WebDriverTest_Edge {
 	    WebDriver driver=new EdgeDriver();
 	    driver.manage().window().maximize();
 	    
+	    
 		// Launch website  
 	    driver.navigate().to("http://www.google.com/");  
 	          

@@ -13,6 +13,7 @@ public class WebDriverTest_Firefox {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		
 		//new commit using Vs code
 	    System.setProperty("webdriver.firefox.marionette","C:\\\\Users\\\\Public\\\\geckodriver.exe");  
 	    WebDriver driver= new FirefoxDriver();
