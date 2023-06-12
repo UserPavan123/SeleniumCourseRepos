@@ -21,7 +21,7 @@ public class WebDriverTest_Chrome {
 		//WebDriver driver = new ChromeDriver(options);
 	    WebDriver driver = new ChromeDriver();
 	    
-	    
+	    //new line added here
 	    
 		// Launch website  
 	    driver.navigate().to("http://www.google.com/");  
