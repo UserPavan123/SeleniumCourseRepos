@@ -9,30 +9,23 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;  
 
 
-public class WebDriverTest_Chrome {
+public class WebDriverTest_Edge {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
-	    // declaration and instantiation of objects/variables  
-	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Public\\chromedriver.exe");
-
-	    WebDriver driver = new ChromeDriver();
-	   
+	    
+	    WebDriver driver=new EdgeDriver();
 	    driver.manage().window().maximize();
 	    
+	    
 		// Launch website  
-	    driver.navigate().to("https://login.yahoo.com/");  
+	    driver.navigate().to("http://www.google.com/");  
 	          
-	    Thread.sleep(5000);
-		 
-	    driver.findElement(By.className("phone-no ")).sendKeys("javatpoint tutorials"); 
-
-	
 	    
-	  //*[@id="login-username"]
-	    
-	    
+	    Thread.sleep(2000);
+		
+	    // Click on the search text box and send value  
+	    driver.findElement(By.id("APjFqb")).sendKeys("javatpoint tutorials");
 	    
 	        
 	    // Click on the search button  

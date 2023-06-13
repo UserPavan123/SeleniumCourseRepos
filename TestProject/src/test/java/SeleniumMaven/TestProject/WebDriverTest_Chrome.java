@@ -9,19 +9,24 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;  
 
 
-public class WebDriverTest_Edge {
+public class WebDriverTest_Chrome {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+
+	    // declaration and instantiation of objects/variables  
+	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Public\\chromedriver.exe");
+	
+	    WebDriver driver = new ChromeDriver();
 	    
-	    WebDriver driver=new EdgeDriver();
-	    driver.manage().window().maximize();
 	    
 		// Launch website  
 	    driver.navigate().to("http://www.google.com/");  
 	          
 	    
 	    Thread.sleep(2000);
+	    
+	    driver.manage().window().maximize();
 		
 	    // Click on the search text box and send value  
 	    driver.findElement(By.id("APjFqb")).sendKeys("javatpoint tutorials");
