@@ -26,6 +26,7 @@ public class WebDriverTest_Chrome {
 	    
 	    Thread.sleep(2000);
 	    
+		//this will maximize window
 	    driver.manage().window().maximize();
 		
 	    // Click on the search text box and send value  
@@ -33,9 +34,9 @@ public class WebDriverTest_Chrome {
 	    
 	        
 	    // Click on the search button  
-	    //driver.findElement(By.name("btnK")).click();  
+	    driver.findElement(By.name("btnK")).click();  
 	    
-	    //driver.findElement(By.xpath("//input[contains(@value,'Google Search') and @name='btnK'])[2]")).click(); 
+	    driver.findElement(By.xpath("//input[contains(@value,'Google Search') and @name='btnK'])[2]")).click(); 
 	    
 	    Thread.sleep(2000);
 	    
