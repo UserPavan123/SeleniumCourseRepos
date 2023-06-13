@@ -16,19 +16,23 @@ public class WebDriverTest_Chrome {
 
 	    // declaration and instantiation of objects/variables  
 	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Public\\chromedriver.exe");
-		//ChromeOptions options = new ChromeOptions();
-		//options.addArgument("--start-maximized");
-		//WebDriver driver = new ChromeDriver(options);
+
 	    WebDriver driver = new ChromeDriver();
+	   
+	    driver.manage().window().maximize();
 	    
 		// Launch website  
-	    driver.navigate().to("http://www.google.com/");  
+	    driver.navigate().to("https://login.yahoo.com/");  
 	          
+	    Thread.sleep(5000);
+		 
+	    driver.findElement(By.className("phone-no ")).sendKeys("javatpoint tutorials"); 
+
+	
 	    
-	    Thread.sleep(2000);
-		
-	    // Click on the search text box and send value  
-	    driver.findElement(By.id("APjFqb")).sendKeys("javatpoint tutorials");
+	  //*[@id="login-username"]
+	    
+	    
 	    
 	        
 	    // Click on the search button  
