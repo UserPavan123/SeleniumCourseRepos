@@ -36,7 +36,7 @@ public class WebDriverTest_Chrome {
 	    // Click on the search button  
 	    driver.findElement(By.name("btnK")).click();  
 	    
-	    //driver.findElement(By.xpath("//input[contains(@value,'Google Search') and @name='btnK'])[2]")).click(); 
+	    driver.findElement(By.xpath("//input[contains(@value,'Google Search') and @name='btnK'])[2]")).click(); 
 	    
 	    Thread.sleep(2000);
 	    
