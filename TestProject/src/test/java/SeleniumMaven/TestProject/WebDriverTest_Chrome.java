@@ -26,6 +26,7 @@ public class WebDriverTest_Chrome {
 	    
 	    Thread.sleep(2000);
 	    
+		//this will maximize window
 	    driver.manage().window().maximize();
 		
 	    // Click on the search text box and send value  
