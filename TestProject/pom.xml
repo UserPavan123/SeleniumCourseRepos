@@ -31,6 +31,16 @@
 			<version>4.9.1</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/selenium-cucumber/selenium-cucumber-java -->
+		<dependency>
+			<groupId>selenium-cucumber</groupId>
+			<artifactId>selenium-cucumber-java</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+
+
+
+
 	</dependencies>
 
 
