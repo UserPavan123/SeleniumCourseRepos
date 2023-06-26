@@ -1,6 +1,11 @@
+test-output/
 target/
 .prefs
-
+.html
+.gif
+.js
+.css
+.png
 .settings/
 pom.xml.tag
 pom.xml.releaseBackup
