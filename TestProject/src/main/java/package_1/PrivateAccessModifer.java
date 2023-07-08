@@ -26,7 +26,7 @@ package package_1;
 		 
 			public static void main(String args[])
 			{  
-				A obj=new A();
+			//	A obj=new A();
 				
 				//since private varibles scope is within the class , it can be called here in another class
 				//System.out.println(obj.data);//Compile Time Error
