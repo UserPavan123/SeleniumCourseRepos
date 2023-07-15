@@ -4,7 +4,6 @@
 	<modelVersion>4.0.0</modelVersion>
 
 
-
 	<groupId>SeleniumMaven</groupId>
 	<artifactId>TestProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -18,17 +17,17 @@
 	</properties>
 	<build>
 		<plugins>
-			 <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.5.1</version>
-                    <configuration>
-                        <compilerVersion>9</compilerVersion>
-                        <source>9</source>
-                        <target>9</target>
-                    </configuration>
-                </plugin>
-                
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<compilerVersion>9</compilerVersion>
+					<source>9</source>
+					<target>9</target>
+				</configuration>
+			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -54,6 +53,15 @@
 			<artifactId>testng</artifactId>
 			<version>7.0.0</version>
 			<scope>compile</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.0.0</version>
+			<scope>test</scope>
 		</dependency>
 
 
