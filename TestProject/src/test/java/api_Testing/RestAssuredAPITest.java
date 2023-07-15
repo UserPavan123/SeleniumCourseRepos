@@ -14,6 +14,7 @@ public class RestAssuredAPITest {
 		// Specify the base URL to the RESTful web service
 		RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
 		
+		
 		// Get the RequestSpecification of the request to be sent to the server.
 		RequestSpecification httpRequest = RestAssured.given();
 		
