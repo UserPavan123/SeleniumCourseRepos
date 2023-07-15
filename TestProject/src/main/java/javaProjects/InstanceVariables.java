@@ -14,8 +14,9 @@ package javaProjects;
 		
 		//functions or methods
 		int CalcArea()
+		
 		{
-			Area=length*breadth*height;
+ 			Area=length*breadth*height;
 			return Area;
 		}
 		
@@ -23,31 +24,24 @@ package javaProjects;
 		//main method  
 			public static void main(String args[])
 			{
-			
 			InstanceVariables obj=new InstanceVariables();
-			
-			//local variables
 			obj.length=10;
 			obj.breadth=10;
 			obj.height=10;
 			
-			
-			
+			//local variables
 			int RecArea=obj.CalcArea();
+			System.out.println("Area of the 1 instance "+Shape+"is "+RecArea);
+			
 			
 			
 			InstanceVariables obj1=new InstanceVariables();
-			
-			
 			//local variables
 			obj1.length=11;
 			obj1.breadth=11;
-			obj1.height=11;;
-			
-			obj1.CalcArea();
-			
-			
-			System.out.println("Area of the "+Shape+"is "+obj.Area);
+			obj1.height=11;
+			int RecArea1=obj1.CalcArea();
+			System.out.println("Area of the 2 instance "+Shape+"is "+RecArea1);
 				
 			}
 			

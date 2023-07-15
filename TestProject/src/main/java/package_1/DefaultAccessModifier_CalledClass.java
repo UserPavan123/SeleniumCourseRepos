@@ -4,11 +4,20 @@ package package_1;
 
 		public class DefaultAccessModifier_CalledClass
 		{  
-		
+			
+			
 			void DefaultAM_Method()
 			{
 				//this method is being called from another class(DefaultAccessModifier.java) which is under package_2
 					System.out.println("this is DefaultAM_Method called from package 1");
+			}
+			
+			
+			public static void main(String[] args)
+			{
+				DefaultAccessModifier_CalledClass obj=new DefaultAccessModifier_CalledClass();
+				
+				obj.DefaultAM_Method();
 			}
 			
 			

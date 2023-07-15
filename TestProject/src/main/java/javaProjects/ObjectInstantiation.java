@@ -34,6 +34,7 @@ public class ObjectInstantiation {
 		 //Hence called variables are called  instance variables
 		 ObjectInstantiation obj=new ObjectInstantiation();
 		 
+		 //this is method B
 		 obj.methodB();
 		 System.out.println(obj.name);
 		  
