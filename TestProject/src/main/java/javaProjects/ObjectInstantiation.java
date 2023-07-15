@@ -33,6 +33,7 @@ public class ObjectInstantiation {
     //	Methods and Variables can be called only using Object reference
 		 //Hence called variables are called  instance variables
 		 ObjectInstantiation obj=new ObjectInstantiation();
+		 
 		 obj.methodB();
 		 System.out.println(obj.name);
 		  

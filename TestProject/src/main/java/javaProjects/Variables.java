@@ -9,6 +9,8 @@ public class Variables {
 	int RollNo;
 	String City;
 	String Gender;
+	Boolean flag;
+	
 		
 //Static Variables carry keyword static 
 //Memory is allocated to this variable only Once when class is loaded
