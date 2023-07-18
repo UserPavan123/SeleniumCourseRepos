@@ -13,8 +13,7 @@ public class WebDriverTest_Chrome {
 		// TODO Auto-generated method stub
 
 	    // declaration and instantiation of objects/variables  
-	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Public\\chromedriver.exe");
-	
+	   // System.setProperty("webdriver.chrome.driver", "C:\\Users\\Public\\chromedriver.exe");
 	    WebDriver driver = new ChromeDriver();
 	    
 	    

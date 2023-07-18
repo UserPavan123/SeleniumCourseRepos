@@ -17,5 +17,11 @@ package package_1;
 					System.out.println("this is protected_AM_Method called from package 1");
 			}
 			
+			void Default_Method()
+			{
+				//this method is being called from another class(DefaultAccessModifier.java) which is under package_2
+					System.out.println("this is protected_AM_Method called from package 1");
+			}
+			
 			
 		}  

@@ -32,9 +32,34 @@ public class JavaProgramSyntax {
 	//Method - Here main method gets priority over other methods
 	
 	
+	//variables
+		String name="shravanthi";
+		int age=30;
+
+		//methods
+		int methodA(int x,int y)
+		{
+			
+			
+			int sum=x+y;
+			return sum;
+		}
+		
+	
 //AccessModifier Static/NonStatic  ReturnType  MethodName  passingargs
 	public 		  static           void         main        (String[] args) throws InterruptedException {
 		//Local variables can be declared here
+		
+		JavaProgramSyntax j1=new JavaProgramSyntax();
+		int PersonAge=j1.age;
+		System.out.println(j1.age);
+		
+		j1.methodA(3, 4);
+		
+		
+		
+		
+		
 		
 		
 	  // to print statement	

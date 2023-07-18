@@ -13,7 +13,7 @@ import package_1.*;
 					so it cannot be accessed from outside the package.
 				*/
 				DefaultAccessModifier_CalledClass obj=new DefaultAccessModifier_CalledClass();
-				//obj.DefaultAM_Method();
-				  
+			//	obj.DefaultAM_Method();
+						  
 			}  
 		}  
