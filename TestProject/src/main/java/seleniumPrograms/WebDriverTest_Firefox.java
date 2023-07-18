@@ -15,7 +15,7 @@ public class WebDriverTest_Firefox {
 		// TODO Auto-generated method stub
 		
 		//new commit using Vs code
-	    System.setProperty("webdriver.firefox.marionette","C:\\\\Users\\\\Public\\\\geckodriver.exe");  
+	   // System.setProperty("webdriver.firefox.marionette","C:\\Users\\Public\\geckodriver.exe");  
 	    WebDriver driver= new FirefoxDriver();
 	    driver.manage().window().maximize();
 	    

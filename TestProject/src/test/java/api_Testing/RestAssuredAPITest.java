@@ -27,6 +27,7 @@ public class RestAssuredAPITest {
 		
 		
 		// Print the status and message body of the response received from the server
+		
 		System.out.println("Status received => " + response.getStatusLine());
 		System.out.println("Response=>" + response.prettyPrint());
 

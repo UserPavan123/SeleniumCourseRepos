@@ -13,22 +13,16 @@ package package_1;
 			System.out.println("Hello java");
 		}
 		
-		//private method
-		private A()
-		{
-			System.out.println("Hello java");
-		}
-		
-		
-		
 	}  
 		  
+	
+	
 		public class PrivateAccessModifer
 		{  
 		 
 			public static void main(String args[])
 			{  
-				//A obj=new A();
+				A obj=new A();
 				
 				//since private varibles scope is within the class , it can be called here in another class
 				//System.out.println(obj.data);//Compile Time Error
