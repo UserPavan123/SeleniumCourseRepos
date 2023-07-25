@@ -33,6 +33,7 @@ class Bajaj extends Vehicle {
 		System.out.println("running safely with 60km on Bajaj");
 	}
 
+	
 }
 
 public class Polymorphism {

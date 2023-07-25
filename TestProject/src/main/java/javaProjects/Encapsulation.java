@@ -15,6 +15,7 @@ class A {
 	}
 }
 
+
 public class Encapsulation
 
 {
