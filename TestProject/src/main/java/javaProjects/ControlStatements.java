@@ -8,6 +8,7 @@ class ControlStatements {
 		// IF Statement
 		int x = 10;
 		int y = 12;
+		
 		if (x + y > 20) {
 			System.out.println("x + y is greater than 20");
 		}
@@ -60,12 +61,19 @@ class ControlStatements {
 //================================================================================
 
 		// For Statement
-		int sum = 0;
+		/*int sum = 0;
 		for (int j = 1; j <= 10; j++) {
 			sum = sum + j;
 		}
+		*/
 
-		System.out.println("The sum of first 10 natural numbers is " + sum);
+
+
+		for (int j = 2; j <= 10; j=j+2) {
+			System.out.println(j);
+		}
+
+		//System.out.println("The sum of first 10 natural numbers is " + sum);
 
 //================================================================================		
 
