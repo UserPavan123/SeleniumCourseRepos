@@ -14,9 +14,8 @@ public class WebDriverTest_Chrome {
 
 	    // declaration and instantiation of objects/variables  
 	   // System.setProperty("webdriver.chrome.driver", "C:\\Users\\Public\\chromedriver.exe");
-	    WebDriver driver = new ChromeDriver();
-	    
-	    
+		WebDriver driver = new ChromeDriver();
+			    
 		// Launch web site  
 	    driver.navigate().to("http://www.google.com/");  
 	          
@@ -29,7 +28,7 @@ public class WebDriverTest_Chrome {
 	    // Click on the search text box and send value  
 	    driver.findElement(By.id("APjFqb")).sendKeys("javatpoint tutorials");
 	    
-	        
+	    
 	    // Click on the search button  
 	    driver.findElement(By.name("btnK")).click();  
 	    
