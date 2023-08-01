@@ -1,7 +1,7 @@
 package javaProjects;
 
 
-class A
+class B
 
 {
 	//variables
