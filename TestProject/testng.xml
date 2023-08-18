@@ -4,6 +4,20 @@
 
 	<test thread-count="5" name="Waits">
 		<classes>
+			<class name="seleniumPrograms.Loginfeature">
+				<methods>
+					<include name="implicitWaitExcercise" />
+					<exclude name="ExplicitWaitExcercise" />
+					<exclude name="FluentWaitExcercise" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test> <!--
+	
+	
+	<test thread-count="5" name="Waits">
+		<classes>
 			<class name="seleniumPrograms.Waits">
 				<methods>
 					<include name="implicitWaitExcercise" />

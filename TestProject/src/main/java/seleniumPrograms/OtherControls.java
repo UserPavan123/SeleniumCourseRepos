@@ -18,34 +18,35 @@ import java.util.NoSuchElementException;
 public class OtherControls {
 	String baseUrl = "http://www.google.com";
 
-	/*
-	 * @Test public void test1() throws InterruptedException { // TODO
-	 * Auto-generated method stub
-	 * 
-	 * WebDriver driver = new ChromeDriver();
-	 * 
-	 * driver.get("C:/Users/spava/Desktop/selenium.html");
-	 * 
-	 * driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	 * 
-	 * driver.manage().window().maximize();
-	 * 
-	 * // This controls are to click Radio Button
-	 * 
-	 * driver.findElement(By.xpath("//input[@value='Ladyfinger']")).click();
-	 * 
-	 * Thread.sleep(2000);
-	 * 
-	 * driver.findElement(By.xpath("//input[@value='Potato']")).click();
-	 * 
-	 * Thread.sleep(2000);
-	 * 
-	 * driver.findElement(By.xpath("//input[@value='Tomato']")).click();
-	 * 
-	 * driver.close();
-	 * 
-	 * }
-	 */
+	
+	  @Test 
+	  public void test1() throws InterruptedException { 
+		  // TODO Auto-generated method stub
+	  
+	  WebDriver driver = new ChromeDriver();
+	  
+	  driver.get("C:/Users/spava/Desktop/selenium.html");
+	  
+	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  
+	  driver.manage().window().maximize();
+	  
+	  // This controls are to click Radio Button
+	  
+	  driver.findElement(By.xpath("//input[@value='Ladyfinger']")).click();
+	  
+	  Thread.sleep(2000);
+	  
+	  driver.findElement(By.xpath("//input[@value='Potato']")).click();
+	  
+	  Thread.sleep(2000);
+	  
+	  driver.findElement(By.xpath("//input[@value='Tomato']")).click();
+	  
+	  driver.close();
+	  
+	  }
+	 
 
 	@Test
 	public void test2() throws InterruptedException {

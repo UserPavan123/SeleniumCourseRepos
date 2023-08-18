@@ -12,13 +12,14 @@ import cucumber.api.java.en.*;
 public class steps {
 
 	public WebDriver driver;
-
+    
 	@Given("^Open the Firefox and launch the application$")
 	public void open_the_Firefox_and_launch_the_application() throws Throwable {
 		
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://demo.guru99.com/v4");
+		
 	}
 
 	
@@ -32,4 +33,5 @@ public class steps {
 	public void Reset_the_credential() throws Throwable {
 		driver.findElement(By.name("btnReset")).click();
 	}
+	
 }
